@@ -1,0 +1,243 @@
+{
+  "id": "20150e17-b62b-4988-9d32-52a1e3ed7394",
+  "version": "2.0",
+  "name": "Inserir cadastro",
+  "url": "http://127.0.0.1:3001",
+  "tests": [{
+    "id": "20cf21e9-816a-457b-82ae-48b70c1b2b65",
+    "name": "Inserir cadastro",
+    "commands": [{
+      "id": "fb4e349e-0009-4d3e-86f9-335929337259",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:3001/backend-Selenium/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a49fca-6235-4a23-8a1b-54fb57913ce9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "745x945",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "981c8bfb-2dd0-4330-bc7f-489d1fdbe2d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd2343f-6677-4473-9022-6aaf721e286c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Renato Resende"
+    }, {
+      "id": "a53c301a-5a1d-4bcb-964e-053f1c7cb40f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["name=cargo", "name"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d92de6-a7bf-4b89-adf9-3931caf91e0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["name=cargo", "name"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e51f605-08f1-4f17-ae04-adc3478fb2d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["name=cargo", "name"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Desenvolvedor Web, Ti, etc"
+    }, {
+      "id": "cc81e945-dfe8-44c2-8d2d-77a122d93773",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["name=departamento", "name"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "853b4fb6-d4dc-4dbe-9f19-57e850ab6630",
+      "comment": "",
+      "command": "type",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["name=departamento", "name"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Tecnologia"
+    }, {
+      "id": "74b1745c-69e5-4c54-b33c-119155c87d36",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(10)",
+      "targets": [
+        ["css=button:nth-child(10)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bf49b9d-c069-4729-926a-6cc43cd49c87",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e72025cf-f950-475a-828e-875d861d21e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Pedro Henrique"
+    }, {
+      "id": "4d2a7925-d4f1-4774-88f8-db206c698df1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["name=cargo", "name"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62123cff-c29e-45b8-bac4-49141d599b18",
+      "comment": "",
+      "command": "type",
+      "target": "id=cargo",
+      "targets": [
+        ["id=cargo", "id"],
+        ["name=cargo", "name"],
+        ["css=#cargo", "css:finder"],
+        ["xpath=//input[@id='cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "assistente"
+    }, {
+      "id": "285db235-bbe8-4d58-8a2a-bfc17ff11e46",
+      "comment": "",
+      "command": "click",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["name=departamento", "name"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03671b47-e506-473d-89ef-2fda7d74be04",
+      "comment": "",
+      "command": "type",
+      "target": "id=departamento",
+      "targets": [
+        ["id=departamento", "id"],
+        ["name=departamento", "name"],
+        ["css=#departamento", "css:finder"],
+        ["xpath=//input[@id='departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Tecnologia"
+    }, {
+      "id": "5af3bc3f-8d7d-4f79-8c4f-42ccf365c570",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(10)",
+      "targets": [
+        ["css=button:nth-child(10)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='cadastroForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9dc5c9ce-2e9e-48ee-8226-bbf7ea9a0b09",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["20cf21e9-816a-457b-82ae-48b70c1b2b65"]
+  }],
+  "urls": ["http://127.0.0.1:3001/"],
+  "plugins": []
+}

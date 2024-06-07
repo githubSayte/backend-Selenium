@@ -1,0 +1,46 @@
+{
+  "id": "796077e2-d2c2-4210-8352-31cd2ebb5a33",
+  "version": "2.0",
+  "name": "Excluir cadastro",
+  "url": "http://127.0.0.1:3001",
+  "tests": [{
+    "id": "85db6a25-72c5-44d3-be81-6ce49f7393dc",
+    "name": "Excluir cadastro",
+    "commands": [{
+      "id": "f72ec174-de89-434f-8b3f-977f120c1800",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:3001/backend-Selenium/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eef06104-a49d-4141-bd3c-caf1a12af474",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33fe6afd-0c7f-458f-970d-3da43dabd5ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(5) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[5]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4337c7a2-de0a-4539-aef1-e2cccaa38343",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["85db6a25-72c5-44d3-be81-6ce49f7393dc"]
+  }],
+  "urls": ["http://127.0.0.1:3001/"],
+  "plugins": []
+}

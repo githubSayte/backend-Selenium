@@ -1,0 +1,137 @@
+{
+  "id": "25fb7716-dee1-4a62-8b72-126b808d6def",
+  "version": "2.0",
+  "name": "Alterar cadastro",
+  "url": "http://127.0.0.1:3001",
+  "tests": [{
+    "id": "30418e11-fc97-4b65-9007-b349b87a71bb",
+    "name": "Alterar cadastro",
+    "commands": [{
+      "id": "358e307b-66d8-4c62-889a-255f39a12366",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:3001/backend-Selenium/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94ed3d03-b3e3-4caa-a921-a20c2054bf8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93e7cf26-fd1d-4ec3-aa41-3aa108f11eb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(4) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[4]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee1b0ed-2c02-4926-9be4-39a0a15248e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abea7d47-f20b-4705-80fd-92b2a241a726",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Renato Resende 10"
+    }, {
+      "id": "d83bda24-bad8-4143-bf32-bc86a7d23c98",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9d18883-ecee-4182-ab81-7e2225a36188",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "Desenvolvedor Web, Ti, etc 10"
+    }, {
+      "id": "39c492ee-bf78-4376-8908-61dec78bdddc",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-departamento",
+      "targets": [
+        ["id=edit-departamento", "id"],
+        ["css=#edit-departamento", "css:finder"],
+        ["xpath=//input[@id='edit-departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6fcb6b-0c79-43e1-a91c-42e32cb3c30a",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-departamento",
+      "targets": [
+        ["id=edit-departamento", "id"],
+        ["css=#edit-departamento", "css:finder"],
+        ["xpath=//input[@id='edit-departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Tecnologia 10"
+    }, {
+      "id": "3c545987-67de-44a5-91aa-ed5709f92a38",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a06bf6e8-df6a-419f-a49d-979a80642fec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30418e11-fc97-4b65-9007-b349b87a71bb"]
+  }],
+  "urls": ["http://127.0.0.1:3001/"],
+  "plugins": []
+}
